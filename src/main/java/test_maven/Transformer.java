@@ -12,10 +12,7 @@ import java.util.HashMap;
 
 public class Transformer {
 	
-	private String name;
-	private String address;
-	private String phone;
-	private String company;
+
 	
 	private HashMap<String, String> tokenMap = new HashMap<String, String>();
 	
@@ -23,16 +20,6 @@ public class Transformer {
 	public Transformer() {
 		super();
 	}
-
-
-	public Transformer(String name, String address, String phone, String company) {
-		super();
-		this.name = name;
-		this.address = address;
-		this.phone = phone;
-		this.company = company;
-	}
-
 
 	
 	/**
